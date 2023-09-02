@@ -19,3 +19,11 @@ code {
   height: 2rem;
   width: 10rem;
 }
+.footer{
+  position: fixed;
+ width: 100vw;
+  bottom: 0;
+}
+.header{
+  width: 100vw;
+}

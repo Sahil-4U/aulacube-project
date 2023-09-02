@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 function Header() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-lg p-3 mb-3 bg-body-tertiary rounded">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-lg p-3 mb-3 bg-body-tertiary rounded header">
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
