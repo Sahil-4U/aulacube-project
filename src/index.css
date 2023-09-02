@@ -13,6 +13,7 @@ code {
 }
 .active{
   border-bottom: 1px solid black;
+  color: #1d67cd !important;
 }
 .brand-name{
   height: 2rem;
