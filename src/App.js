@@ -1,14 +1,17 @@
-import './App.css';
-import Layout from './components/layout/Layout';
+import { Route, Routes } from "react-router-dom";
+import Homepage from "./components/pages/Homepage";
+import Dashboardpage from "./components/pages/Dashboardpage";
+import Contactpage from "./components/pages/Contactpage";
+
+
 
 function App() {
   return (
-    <Layout>      <center>
-        <h1>hi react</h1>
-      </center>
-    </Layout>
-
-
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/dashboardpage" element={<Dashboardpage />} />
+      <Route path="/contactpage" element={<Contactpage />} />
+    </Routes>
   );
 }
 

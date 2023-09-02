@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.active{
+  border-bottom: 1px solid black;
+}
+.brand-name{
+  height: 2rem;
+  width: 10rem;
+}
