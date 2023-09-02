@@ -19,7 +19,7 @@ function Dashboardpage() {
             <center className='my-4'>
                 <h2>Comments Section</h2>
             </center>
-            <div>
+            <div className='dashb'>
                 <div className='row px-1'>
                     <div className='col-4 container-fluid text-primary text-center'>
                         <h3>Filter section</h3>
