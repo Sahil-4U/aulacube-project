@@ -7,6 +7,7 @@ function Dashboardpage() {
     const [data] = useData();
     const [filter, setFilter] = useState([]);
     const [showdata, setShowdata] = useState([]);
+
     useEffect(() => {
         setFilter(data)
     }, [data])
