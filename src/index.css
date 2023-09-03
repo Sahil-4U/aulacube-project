@@ -11,10 +11,7 @@ body {
   font-size: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 .active{
   border-bottom: 1px solid black;
   color: #1d67cd !important;
@@ -31,10 +28,15 @@ code {
 .header{
   width: 100vw;
 }
-
-@media  (max-width:768px) {
+.cards{
+  width:18rem;
+  height: 18rem;
+}
+@media  (max-width:765px) {
   body{
     font-size: 7px;
-    
+  }
+  .cards{
+    height: 14rem;
   }
 }

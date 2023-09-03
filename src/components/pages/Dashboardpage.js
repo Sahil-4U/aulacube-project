@@ -64,7 +64,7 @@ function Dashboardpage() {
                         {
                             showdata && showdata.map((val) => {
                                 return (
-                                    <div className="card shadow m-1" style={{ width: '18rem', height: '18rem' }} key={val.id}>
+                                    <div className="card shadow m-1 cards" key={val.id}>
                                         <div className="card-body">
                                             <h5 className="card-title bg-info text-light">Post Id:{val.postId}</h5>
                                             <h6 className="card-subtitle mb-2 text-body-secondary">Name:{val.name}</h6>
